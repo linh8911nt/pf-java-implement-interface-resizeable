@@ -10,7 +10,7 @@ public class CircleTest {
         }
 
         double percent = Math.random()*1;
-        System.out.println(percent);
+        System.out.println("Percent resize = " + percent);
         for (int i = 0; i < circle.length; i++) {
             circle[i].resize(percent);
             System.out.println(circle[i]);
